@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "job-portal-tips",
+    "title": "How to Navigate a Job Portal Effectively",
+    "description": "Learn the best practices for using a job portal to land your dream job.",
+    "content": "Job portals are powerful tools for finding your next career opportunity. Start by completing your profile with accurate and up-to-date information. Use filters to narrow down the search based on location, job type, or salary range. Don't forget to save searches and set up alerts for new postings. Additionally, customize your applications with tailored resumes and cover letters to stand out from the competition.",
+    "author": "John Doe",
+    "publishedDate": "2024-12-01"
+  },
+  {
+    "slug": "resume-optimization",
+    "title": "Optimizing Your Resume for Job Portals",
+    "description": "Discover how to create a resume that catches recruiters' attention on job portals.",
+    "content": "A well-optimized resume increases your visibility on job portals. Use keywords that match the job descriptions you are targeting. Highlight your skills and achievements in a concise manner. Make sure your contact information is up-to-date, and use a professional email address. Consider adding a professional summary that aligns with your career goals to create a strong first impression.",
+    "author": "Jane Smith",
+    "publishedDate": "2024-12-02"
+  },
+  {
+    "slug": "interview-preparation",
+    "title": "Preparing for Interviews via Job Portal Applications",
+    "description": "Tips and strategies for acing interviews after applying through job portals.",
+    "content": "After applying for jobs via portals, it's essential to prepare for interviews. Research the company and the role you applied for. Practice common interview questions and prepare examples to demonstrate your skills and experiences. Use the job portal's tools to track your applications and follow up professionally. Be ready to discuss how your qualifications align with the job's requirements during the interview.",
+    "author": "Alice Johnson",
+    "publishedDate": "2024-12-03"
+  },
+  {
+    "slug": "cover-letter-tips",
+    "title": "Crafting the Perfect Cover Letter for Job Portals",
+    "description": "Master the art of writing a compelling cover letter for online applications.",
+    "content": "A well-crafted cover letter can set you apart from other applicants. Begin with a strong opening that captures the employer's attention. Tailor the content to the job description, emphasizing your relevant skills and achievements. End with a confident call to action, expressing your enthusiasm for the role and your availability for an interview. Proofread carefully to ensure there are no errors.",
+    "author": "Michael Brown",
+    "publishedDate": "2024-12-04"
+  },
+  {
+    "slug": "remote-work-opportunities",
+    "title": "Exploring Remote Work Opportunities on Job Portals",
+    "description": "A guide to finding and applying for remote jobs through online platforms.",
+    "content": "Remote work has become increasingly popular, and job portals are a great place to find these opportunities. Use filters to specify remote roles and review company policies on remote work. Highlight your ability to work independently and manage your time effectively in your applications. Include tools and technologies you are proficient with that are relevant to remote work environments.",
+    "author": "Sarah Lee",
+    "publishedDate": "2024-12-05"
+  },
+  {
+    "slug": "freelance-gigs",
+    "title": "Finding Freelance Gigs on Job Portals",
+    "description": "Tips for landing freelance projects using online job platforms.",
+    "content": "Freelance work offers flexibility and variety. To find gigs on job portals, create a profile showcasing your portfolio and skills. Look for portals that specialize in freelance opportunities. Network with clients and ask for reviews to build your reputation. Regularly update your profile to reflect your latest projects and achievements.",
+    "author": "Emily Clark",
+    "publishedDate": "2024-12-06"
+  }
+]

@@ -1,0 +1,218 @@
+[
+    {
+        "slug": 1,
+        "title": "Software Engineer",
+        "company": "Dhaka Tech Innovators",
+        "location": "Dhaka, Bangladesh",
+        "description": "Develop and maintain software applications. Collaborate with cross-functional teams to define and implement solutions.",
+        "requirements": [
+            "Bachelor's degree in Computer Science",
+            "3+ years of software development experience",
+            "Proficiency in JavaScript and Python"
+        ],
+        "salary": "12,00,000 - 14,00,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-12-01",
+        "companyInfo": {
+            "description": "Dhaka Tech Innovators is a leading company in the tech industry specializing in software development and technology solutions."
+        }
+    },
+    {
+        "slug": 2,
+        "title": "Marketing Specialist",
+        "company": "Chittagong Market Leaders Ltd.",
+        "location": "Chittagong, Bangladesh",
+        "description": "Create and execute marketing campaigns. Analyze performance metrics and optimize strategies to increase brand awareness.",
+        "requirements": [
+            "Bachelor's degree in Marketing",
+            "2+ years of experience in digital marketing",
+            "Strong analytical skills"
+        ],
+        "salary": "7,00,000 - 9,00,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-11-25",
+        "companyInfo": {
+            "description": "Chittagong Market Leaders Ltd. is one of the top marketing firms in Bangladesh, known for its innovative strategies."
+        }
+    },
+    {
+        "slug": 3,
+        "title": "Data Analyst",
+        "company": "Data Insights BD",
+        "location": "Dhaka, Bangladesh",
+        "description": "Analyze data to provide actionable insights. Build dashboards and reports to communicate findings.",
+        "requirements": [
+            "Bachelor's degree in Statistics or related field",
+            "2+ years of experience in data analysis",
+            "Proficiency in SQL and Tableau"
+        ],
+        "salary": "8,00,000 - 10,00,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-12-02",
+        "companyInfo": {
+            "description": "Data Insights BD is a data analysis company providing insights to businesses for decision-making."
+        }
+    },
+    {
+        "slug": 4,
+        "title": "UX Designer",
+        "company": "Creative Labs Bangladesh",
+        "location": "Sylhet, Bangladesh",
+        "description": "Design user interfaces and create prototypes for new features. Conduct user research to inform design decisions.",
+        "requirements": [
+            "Bachelor's degree in Design or related field",
+            "Experience with Figma and Adobe XD",
+            "Strong understanding of user-centered design principles"
+        ],
+        "salary": "8,50,000 - 11,00,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-12-03",
+        "companyInfo": {
+            "description": "Creative Labs Bangladesh specializes in creating intuitive and visually appealing user experiences."
+        }
+    },
+    {
+        "slug": 5,
+        "title": "HR Manager",
+        "company": "Corporate Solutions BD",
+        "location": "Dhaka, Bangladesh",
+        "description": "Oversee recruitment, employee relations, and organizational development programs. Ensure compliance with labor laws and policies.",
+        "requirements": [
+            "Bachelor's degree in Human Resources",
+            "5+ years of experience in HR",
+            "Strong leadership and communication skills"
+        ],
+        "salary": "9,00,000 - 12,00,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-11-20",
+        "companyInfo": {
+            "description": "Corporate Solutions BD offers HR consultancy and solutions to top businesses in Bangladesh."
+        }
+    },
+    {
+        "slug": 6,
+        "title": "Cloud Architect",
+        "company": "CloudTech BD",
+        "location": "Remote, Bangladesh",
+        "description": "Design and implement cloud-based solutions. Ensure scalability, security, and performance of cloud systems.",
+        "requirements": [
+            "Bachelor's degree in Computer Science",
+            "Experience with AWS, Azure, or GCP",
+            "Strong understanding of cloud architecture principles"
+        ],
+        "salary": "15,00,000 - 18,00,000 TK",
+        "jobType": "Contract",
+        "postedDate": "2024-12-05",
+        "companyInfo": {
+            "description": "CloudTech BD provides cutting-edge cloud solutions to businesses worldwide."
+        }
+    },
+    {
+        "slug": 7,
+        "title": "Sales Representative",
+        "company": "Global Sales BD",
+        "location": "Khulna, Bangladesh",
+        "description": "Identify and pursue sales opportunities. Build and maintain client relationships to achieve sales targets.",
+        "requirements": [
+            "Bachelor's degree in Business or related field",
+            "2+ years of sales experience",
+            "Strong negotiation skills"
+        ],
+        "salary": "6,00,000 - 8,50,000 TK plus commission",
+        "jobType": "Full-time",
+        "postedDate": "2024-12-03",
+        "companyInfo": {
+            "description": "Global Sales BD specializes in building sales pipelines and providing consulting services."
+        }
+    },
+    {
+        "slug": 8,
+        "title": "Product Manager",
+        "company": "Innovation BD Ltd.",
+        "location": "Dhaka, Bangladesh",
+        "description": "Define product vision and strategy. Work with engineering and design teams to bring new features to market.",
+        "requirements": [
+            "Bachelor's degree in Business or Engineering",
+            "3+ years of product management experience",
+            "Strong problem-solving skills"
+        ],
+        "salary": "11,00,000 - 13,50,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-12-01",
+        "companyInfo": {
+            "description": "Innovation BD Ltd. is a tech company focused on product innovation and development."
+        }
+    },
+    {
+        "slug": 9,
+        "title": "Cybersecurity Analyst",
+        "company": "Secure Networks BD",
+        "location": "Barisal, Bangladesh",
+        "description": "Monitor and respond to security threats. Conduct vulnerability assessments and implement security measures.",
+        "requirements": [
+            "Bachelor's degree in Information Security",
+            "2+ years of experience in cybersecurity",
+            "Familiarity with firewalls and intrusion detection systems"
+        ],
+        "salary": "9,50,000 - 12,00,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-11-25",
+        "companyInfo": {
+            "description": "Secure Networks BD provides advanced cybersecurity solutions to protect data and systems."
+        }
+    },
+    {
+        "slug": 10,
+        "title": "Business Analyst",
+        "company": "Enterprise Solutions BD",
+        "location": "Rajshahi, Bangladesh",
+        "description": "Analyze business processes and recommend improvements. Develop requirements for new business initiatives.",
+        "requirements": [
+            "Bachelor's degree in Business or Economics",
+            "3+ years of experience as a business analyst",
+            "Strong analytical and communication skills"
+        ],
+        "salary": "8,50,000 - 10,50,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-11-15",
+        "companyInfo": {
+            "description": "Enterprise Solutions BD specializes in providing strategic business solutions."
+        }
+    },
+    {
+        "slug": 11,
+        "title": "Mechanical Engineer",
+        "company": "Industrial Design BD",
+        "location": "Gazipur, Bangladesh",
+        "description": "Design and analyze mechanical systems and components. Collaborate with manufacturing teams to optimize designs.",
+        "requirements": [
+            "Bachelor's degree in Mechanical Engineering",
+            "Experience with CAD software",
+            "Strong problem-solving skills"
+        ],
+        "salary": "7,50,000 - 9,50,000 TK",
+        "jobType": "Full-time",
+        "postedDate": "2024-12-06",
+        "companyInfo": {
+            "description": "Industrial Design BD focuses on mechanical engineering solutions for industrial applications."
+        }
+    },
+    {
+        "slug":12 ,
+        "title": "Graphic Designer",
+        "company": "Creative Studio BD",
+        "location": "Dhaka, Bangladesh",
+        "description": "Create visual content for marketing campaigns and product branding. Work with clients to bring their vision to life.",
+        "requirements": [
+            "Bachelor's degree in Graphic Design or related field",
+            "Proficiency in Adobe Creative Suite",
+            "Strong portfolio showcasing design skills"
+        ],
+        "salary": "5,00,000 - 7,00,000 TK",
+        "jobType": "Freelance",
+        "postedDate": "2024-11-18",
+        "companyInfo": {
+            "description": "Creative Studio BD is a design agency specializing in graphic and digital design services."
+        }
+    }
+]
