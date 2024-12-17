@@ -1,16 +1,19 @@
-'use client';
+"use client"
 
-import { useEffect, useState } from 'react';
-import { useParams } from 'next/navigation'; // Import useParams to handle route parameters
-import toast, { Toaster } from 'react-hot-toast';
+import { useEffect, useState } from "react";
+import { useParams, useRouter } from "next/navigation"; // Import useParams and useRouter
+import { useSession } from "next-auth/react"; // Import useSession from next-auth
+import toast, { Toaster } from "react-hot-toast";
 
 const JobDetails = () => {
   const { id } = useParams(); // Access the job ID from the route parameters
+  const router = useRouter(); // To handle redirect
+  const { data: session } = useSession(); // Get session data
   const [job, setJob] = useState(null);
 
   useEffect(() => {
     if (!id) {
-      console.error('Job ID is missing');
+      console.error("Job ID is missing");
       return;
     }
 
@@ -18,20 +21,47 @@ const JobDetails = () => {
       try {
         const res = await fetch(`/api/jobdata?id=${id}`);
         if (!res.ok) {
-          throw new Error('Failed to fetch job data');
+          throw new Error("Failed to fetch job data");
         }
         const fetchedJob = await res.json();
         setJob(fetchedJob);
       } catch (error) {
-        console.error('Error fetching job details:', error);
+        console.error("Error fetching job details:", error);
       }
     };
 
     fetchJobData();
   }, [id]);
 
-  const handleApply = () => {
-    toast.success('Application submitted successfully!');
+  const handleApply = async () => {
+    if (!session?.user) {
+      router.push("/auth/signin");
+      return;
+    }
+
+    try {
+      const res = await fetch("/api/appliedjob", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: session.user.email, // Send the user email
+          jobId: job._id, // Ensure you're using the correct field
+          jobTitle: job.title,
+          company: job.company,
+        }),
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to apply for the job");
+      }
+
+      toast.success("Application submitted successfully!");
+    } catch (error) {
+      console.error("Error submitting application:", error);
+      toast.error("Error submitting application");
+    }
   };
 
   if (!job) {
