@@ -130,8 +130,8 @@ export default function Login() {
           <div className="text-center mt-4">
             <p>
               Don’t have an account?{" "}
-              <Link className="text-gray-900 font-bold" href="/auth/signup">
-                Sign up
+              <Link className="text-blue-900 underline font-bold" href="/auth/signup">
+                 sign up
               </Link>
             </p>
           </div>
