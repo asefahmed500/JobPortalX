@@ -1,34 +1,34 @@
 'use client';
 
-import { use } from 'react';
 import { useEffect, useState } from 'react';
+import { useParams } from 'next/navigation'; // Import useParams to handle route parameters
 import toast, { Toaster } from 'react-hot-toast';
 
-const JobDetails = ({ params }) => {
-  const { slug } = use(params); // Unwrap params with React.use()
+const JobDetails = () => {
+  const { id } = useParams(); // Access the job ID from the route parameters
   const [job, setJob] = useState(null);
 
   useEffect(() => {
+    if (!id) {
+      console.error('Job ID is missing');
+      return;
+    }
+
     const fetchJobData = async () => {
       try {
-        const res = await fetch('/jobs.json');
+        const res = await fetch(`/api/jobdata?id=${id}`);
         if (!res.ok) {
-          throw new Error('Failed to fetch jobs.json');
+          throw new Error('Failed to fetch job data');
         }
-        const jobs = await res.json();
-
-        console.log('Fetched jobs:', jobs);
-        const foundJob = jobs.find((b) => String(b.slug) === slug);
-        console.log('Found job:', foundJob);
-
-        setJob(foundJob);
+        const fetchedJob = await res.json();
+        setJob(fetchedJob);
       } catch (error) {
-        console.error(error);
+        console.error('Error fetching job details:', error);
       }
     };
 
     fetchJobData();
-  }, [slug]);
+  }, [id]);
 
   const handleApply = () => {
     toast.success('Application submitted successfully!');
@@ -50,7 +50,7 @@ const JobDetails = ({ params }) => {
           <strong>Location:</strong> {job.location}
         </p>
         <p className="text-gray-700 mb-2">
-          <strong>Type:</strong> {job.type}
+          <strong>Type:</strong> {job.jobType}
         </p>
         <p className="text-gray-700 mb-2">
           <strong>Salary:</strong> {job.salary}
